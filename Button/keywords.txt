@@ -1,0 +1,4 @@
+Morse	KEYWORD1
+button_pressed	KEYWORD2
+button_pressed	KEYWORD2
+do_nothing	KEYWORD2
