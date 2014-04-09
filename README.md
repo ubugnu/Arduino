@@ -1,6 +1,6 @@
 # Arduino
 
-This is my personal library which I began to write when I was learning Arduino programming (which is mainly C++ programming based on Arduino libraries).
+These are my personal Arduino libraries which I began to write when I was learning Arduino programming (which is mainly C++ programming based on Arduino libraries).
 
 Yet, it only contains the `Button` library which handle buttons connected to Arduino platforms.
 
