@@ -6,6 +6,10 @@ The first issue I encountered when learning to use Arduino is the "bouncing phen
 
 ## Proof of concept
 
+To do ...
+
+## Presentation
+
 This is the Arduino `Button` library that handle buttons that has the ability of detecting:
 
 * **Normal button press** - press that lasts less than 1000 milliseconds (this value can be changed)
