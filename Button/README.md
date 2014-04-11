@@ -148,7 +148,7 @@ button.disable_debug();
 
 # Find it horribly heavy for a microcontroller?
 
-Criticisms is welcome! Or just fork it ;-)
+Criticisms are welcome! Or just fork it ;-)
 
 # Contact
 
