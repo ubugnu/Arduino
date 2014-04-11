@@ -86,23 +86,18 @@ Button button(2);	// the button will be on pin 2
 void on_release() {
 	Serial.print(String("button released immediately: ") + button.gap() + String(" milliseconds\n"));
 }
-
 void on_press() {
 	Serial.print(String("button pressed immediately: ") + button.gap() + String(" milliseconds\n"));
 }
-
 void on_long_release() {
 	Serial.print(String("button released after long time: ") + button.gap() + String(" milliseconds\n"));
 }
-
 void on_long_press() {
 	Serial.print(String("button pressed after long time: ") + button.gap() + String(" milliseconds\n"));
 }
-
 void on_bounced_release() {
 	Serial.print(String("button released after a bounce: ") + button.gap() + String(" milliseconds\n"));
 }
-
 void on_bounced_press() {
 	Serial.print(String("button pressed after a bounce: ") + button.gap() + String(" milliseconds\n"));
 }
