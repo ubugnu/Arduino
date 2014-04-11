@@ -7,15 +7,18 @@
 #include "Arduino.h"
 #include "Button.h"
 
-Button::Button(int pin)
-{
+void do_nothing() {
+	return;
+}
+
+Button::Button(int pin) {
 	pinMode(pin, INPUT_PULLUP);
 	_pin = pin;
 	if(this->_debug) Serial.begin(9600);
-}
-
-void do_nothing() {
-	return;
+	this->on_release(do_nothing);
+	this->on_press(do_nothing);
+	this->on_bounced_release(do_nothing);
+	this->on_bounced_press(do_nothing);
 }
 
 void Button::_on_release(unsigned long gap) {
@@ -63,10 +66,6 @@ void Button::init () {
 		}
 		_button_state = HIGH;
 	}
-	this->on_release(do_nothing);
-	this->on_press(do_nothing);
-	this->on_bounced_release(do_nothing);
-	this->on_bounced_press(do_nothing);
 }
 
 void Button::button_pressed (unsigned long gap) {
