@@ -146,10 +146,10 @@ button.enable_debug();
 button.disable_debug();
 ```
 
-# Find it horribly heavy for a microcontroller?
+## Find it horribly heavy for a microcontroller?
 
 Criticisms are welcome! Or just fork it ;-)
 
-# Contact
+## Contact
 
 Please contact me at [`@ubugnu`](https://twitter.com/ubugnu)
