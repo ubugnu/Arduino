@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The first issue I encountered when learning to use Arduino is the "bouncing phenomenon" inherent to buttons, indeed, when pressing a button, very often this press produces many "bounced" successive presses/releases of that button, which may affect the normal behaviour of our program!
+The first issue we encounter when learning to use Arduino is the "bouncing phenomenon" inherent to buttons, indeed, when pressing a button, very often this press produces many "bounced" successive presses/releases of that button, which may affect the normal behaviour of our program!
 
 ## Proof of concept
 
