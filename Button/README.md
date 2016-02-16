@@ -81,7 +81,7 @@ Here is a simple example that show you how to use the `Button` library:
 
 Button button(2);	// the button will be on pin 2
 
-// fcuntions that will be called whenever one of the XB(s)P's event occurs
+// funtions that will be called whenever one of the XB(s)P's event occurs
 
 void on_release() {
 	Serial.print(String("button released immediately: ") + button.gap() + String(" milliseconds\n"));
